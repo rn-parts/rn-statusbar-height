@@ -2,7 +2,7 @@
 
 > A library that gets statusbar height for React Native
 
-## Install
+## Installation
 
 ```bash
 $ npm install --save rn-statusbar-height
@@ -24,6 +24,10 @@ import { getStatusBarHeight } from 'rn-statusbar-height'
 console.log(getStatusBarHeight())
 ```
 
-### Contributing
+## Contribution
 
 If you want to add some features, feel free to submit PR.
+
+## License
+
+[MIT](LICENSE).
