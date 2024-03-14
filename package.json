@@ -1,12 +1,13 @@
 {
   "name": "rn-statusbar-height",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "A library that gets statusbar height for React Native",
-  "main": "index.js",
+  "main": "index.ts",
   "typings": "index.d.ts",
   "scripts": {
     "test": "npx jest --coverage",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "pub": "sh publish.sh"
   },
   "repository": {
     "type": "git",
@@ -22,12 +23,11 @@
   },
   "homepage": "https://github.com/yorickshan/rn-statusbar-height#readme",
   "devDependencies": {
-    "@babel/preset-typescript": "^7.12.7",
     "@types/jest": "^26.0.19",
-    "flow-bin": "^0.104",
+    "@types/react-native": "^0.73.0",
     "jest": "^26.6.3",
     "react-native": "^0.62.2",
-    "typescript": "^3.3.3333"
+    "typescript": "^5.4.2"
   },
   "jest": {
     "preset": "react-native",

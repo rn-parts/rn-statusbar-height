@@ -60,14 +60,14 @@ if (Platform.OS === 'ios' && !Platform.isPad && !Platform.isTVOS) {
   }
 }
 
-export const isIPhoneX = () => isIPhoneX_v
-export const isIPhoneXMax = () => isIPhoneXMax_v
-export const isIPhone12 = () => isIPhone12_v
-export const isIPhone12Max = () => isIPhone12Max_v
-export const isIPhoneWithMonobrow = () => isIPhoneWithMonobrow_v
-export const isIPhoneWithDynamicIsland = () => isIPhoneWithDynamicIsland_v
+export const isIPhoneX = (): boolean => isIPhoneX_v
+export const isIPhoneXMax = (): boolean => isIPhoneXMax_v
+export const isIPhone12 = (): boolean => isIPhone12_v
+export const isIPhone12Max = (): boolean => isIPhone12Max_v
+export const isIPhoneWithMonobrow = (): boolean => isIPhoneWithMonobrow_v
+export const isIPhoneWithDynamicIsland = (): boolean => isIPhoneWithDynamicIsland_v
 
-export function getStatusBarHeight(skipAndroid) {
+export const getStatusBarHeight = (skipAndroid: boolean = false): number => {
   return Platform.select({
     ios: statusBarHeight,
     android: skipAndroid ? 0 : StatusBar.currentHeight,

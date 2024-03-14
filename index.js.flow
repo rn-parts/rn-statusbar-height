@@ -1,9 +1,0 @@
-declare module 'rn-statusbar-height' {
-  declare function getStatusBarHeight(): number
-  declare function isIPhoneX(): boolean
-  declare function isIPhoneXMax(): boolean
-  declare function isIPhone12(): boolean
-  declare function isIPhone12Max(): boolean
-  declare function isIPhoneWithMonobrow(): boolean
-  declare function isIPhoneWithDynamicIsland(): boolean
-}
