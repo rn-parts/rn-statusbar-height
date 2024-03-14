@@ -15,14 +15,22 @@ $ yarn add rn-statusbar-height
 ```js
 import { getStatusBarHeight } from 'rn-statusbar-height'
 
-// 59 - on iPhone 14 (PRO)
-// 47 - on iPhone 12 (Max)
-// 44 - on iPhone X
+// 59 - iPhone 14 Pro / 14Pro Max / 15 series
+// 47 - iPhone 12 / 12Pro / 13 / 13Pro / 13Pro Max / 14 / 14 Plus
+// 44 - on iPhoneX
 // 20 - on iOS device
 // X - on Android platfrom (runtime value)
 // 0 - on all other platforms (default)
 console.log(getStatusBarHeight())
+
+// will be 0 on Android, because You pass true to skipAndroid
+console.log(getStatusBarHeight(true));
 ```
+
+## References
+[ovr/react-native-status-bar-height](https://github.com/ovr/react-native-status-bar-height)
+
+[The Screen Sizes of iPhones](https://useyourloaf.com/blog/iphone-15-screen-sizes/)
 
 ## Contribution
 
