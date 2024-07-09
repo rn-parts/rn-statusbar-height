@@ -1,0 +1,16 @@
+.github/
+.idea/
+.gitignore
+.editorconfig
+.eslintrc
+.npmignore
+.prettierignore
+.prettierrc
+.history
+.commitlintrc.json
+.versionrc.json
+CHANGELOG.md
+tsconfig.json
+jest.config.js
+index.spec.ts
+publish.sh

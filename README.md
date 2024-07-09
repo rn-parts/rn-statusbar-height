@@ -1,6 +1,10 @@
 # rn-statusbar-height
 
-> A library that gets statusbar height for React Native
+[![npm version](https://badgen.net/npm/v/rn-statusbar-height)](https://npm.im/rn-statusbar-height) [![npm downloads](https://badgen.net/npm/dm/rn-statusbar-height)](https://npm.im/rn-statusbar-height)
+
+> A library that gets statusbar height for React Native.
+>
+> If you found this helpful, don't forget to leave a star 🌟. 
 
 ## Installation
 
