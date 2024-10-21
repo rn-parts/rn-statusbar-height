@@ -1,6 +1,6 @@
 {
   "name": "rn-statusbar-height",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A library that gets statusbar height for React Native",
   "main": "index.ts",
   "typings": "index.d.ts",

@@ -19,7 +19,9 @@ $ yarn add rn-statusbar-height
 ```js
 import { getStatusBarHeight } from 'rn-statusbar-height'
 
-// 59 - iPhone 14 Pro / 14Pro Max / 15 series
+// 53 - iPhone 16 Pro Max
+// 51 - iPhone 16 Pro
+// 49 - iPhone 14 Pro / 14Pro Max / 15 series
 // 47 - iPhone 12 / 12Pro / 13 / 13Pro / 13Pro Max / 14 / 14 Plus
 // 44 - on iPhoneX
 // 20 - on iOS device
